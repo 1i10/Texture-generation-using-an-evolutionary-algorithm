@@ -19,7 +19,7 @@
 
 * [*Example*](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/Example) - содержит изображения для описания данного репозитория;
 
-* [*EvolutionaryAlorithm.cpp*](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/EvolutionaryAlorithm.cpp) / [*EvolutionaryAlorithm.h*](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/EvolutionaryAlorithm.h) - базовый класс для эволюционных алгоритмов. Содержит данные о популяции, количестве поколений, вероятности мутации,вероятности скрещивания, лучшем индивиде (текстуре), векторе весов для признаков Тамуры и MSE. Обеспечивает основную структуру и функциональность эволюционного алгоритма;
+* [*EvolutionaryAlgorithm.cpp*](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/EvolutionaryAlgorithm.cpp) / [*EvolutionaryAlgorithm.h*](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/EvolutionaryAlgorithm.h) - базовый класс для эволюционных алгоритмов. Содержит данные о популяции, количестве поколений, вероятности мутации,вероятности скрещивания, лучшем индивиде (текстуре), векторе весов для признаков Тамуры и MSE. Обеспечивает основную структуру и функциональность эволюционного алгоритма;
 
 * [*GenerationTexture.pro*](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/GenerationTexture.pro) - файл проекта, используемый qmake для создания приложения;
 
@@ -63,11 +63,11 @@ LIBS += -LD:\\Projects\\lib\\OpenCV-MinGW-Build-OpenCV-4.5.5-x64\\OpenCV-MinGW-B
   
 Ниже представлены результаты двух экспериментов.  
 *Эксперимент 1*  
-![Результат эксперимента 1](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/Example/Experiment1.png)  
+![Результат эксперимента 1](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/blob/main/Example/Experiment1.png)  
 
-![Сгенерированная текстура](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/Example/Texture1.jpg)  
+![Сгенерированная текстура](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/blob/main/Example/Texture1.jpg)  
   
 *Эксперимент 2*  
-![Результат эксперимента 2](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/Example/Experiment2.png)  
+![Результат эксперимента 2](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/blob/main/Example/Experiment2.png)  
 
-![Сгенерированная текстура](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/tree/main/Example/Texture12.jpg)  
+![Сгенерированная текстура](https://github.com/1i10/Texture-generation-using-an-evolutionary-algorithm/blob/main/Example/Texture2.jpg)  
